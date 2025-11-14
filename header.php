@@ -30,16 +30,21 @@ if(isset($message)){
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css"> 
     <style>
-      .header .header-2 .flex .navbar a {
-        text-decoration: none;
-    }
-       .header .header-2 .flex .navbar a:hover{
-            color: #8b5e3c;
-         }
-       .header .flex .user-box div a:hover{
-            text-decoration: underline;
-         }
-    </style>
+  .header .header-2 .flex .navbar a {
+    color: var(--light-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .header .header-2 .flex .navbar a:hover {
+    color: #8b5e3c; /* warna hover */
+  }
+
+  .header .flex .user-box div a:hover {
+    text-decoration: underline;
+  }
+</style>
+
 </head>
 <body>
     
